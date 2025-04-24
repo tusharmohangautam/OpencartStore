@@ -1,30 +1,39 @@
-2025-03-12 15:38:18 INFO  TC002_LoginTest:18 - **** Starting TC_002_LoginTest  ****
-2025-03-12 15:38:18 INFO  TC002_LoginTest:25 - clicked on myaccount link on the home page..
-2025-03-12 15:38:19 INFO  TC002_LoginTest:27 - clicked on login link under myaccount..
-2025-03-12 15:38:19 INFO  TC002_LoginTest:31 - Entering valid email and password..
-2025-03-12 15:38:19 INFO  TC002_LoginTest:35 - clicked on login button..
-2025-03-12 15:38:20 INFO  TC002_LoginTest:52 - **** Finished TC_002_LoginTest  ****
-2025-03-12 15:39:09 INFO  TC001_AccountRegistrationTest:25 - ....starting TC001_AccountRegistrationTest.....
-2025-03-12 15:39:09 INFO  TC001_AccountRegistrationTest:32 - clicked on My Account link
-2025-03-12 15:39:10 INFO  TC001_AccountRegistrationTest:34 - clicked on Register link
-2025-03-12 15:39:10 INFO  TC001_AccountRegistrationTest:39 - providing customer details...
-2025-03-12 15:39:11 INFO  TC001_AccountRegistrationTest:53 - validating expected message...
-2025-03-12 15:39:11 INFO  TC001_AccountRegistrationTest:73 - ....finished TC001_AccountRegistrationTest.....
-2025-03-12 15:39:14 INFO  TC002_LoginTest:18 - **** Starting TC_002_LoginTest  ****
-2025-03-12 15:39:15 INFO  TC002_LoginTest:25 - clicked on myaccount link on the home page..
-2025-03-12 15:39:15 INFO  TC002_LoginTest:27 - clicked on login link under myaccount..
-2025-03-12 15:39:15 INFO  TC002_LoginTest:31 - Entering valid email and password..
-2025-03-12 15:39:16 INFO  TC002_LoginTest:35 - clicked on login button..
-2025-03-12 15:39:17 INFO  TC002_LoginTest:52 - **** Finished TC_002_LoginTest  ****
-2025-03-12 15:52:18 INFO  TC001_AccountRegistrationTest:25 - ....starting TC001_AccountRegistrationTest.....
-2025-03-12 15:52:18 INFO  TC001_AccountRegistrationTest:32 - clicked on My Account link
-2025-03-12 15:52:19 INFO  TC001_AccountRegistrationTest:34 - clicked on Register link
-2025-03-12 15:52:19 INFO  TC001_AccountRegistrationTest:39 - providing customer details...
-2025-03-12 15:52:21 INFO  TC001_AccountRegistrationTest:53 - validating expected message...
-2025-03-12 15:52:21 INFO  TC001_AccountRegistrationTest:73 - ....finished TC001_AccountRegistrationTest.....
-2025-03-12 15:52:25 INFO  TC002_LoginTest:18 - **** Starting TC_002_LoginTest  ****
-2025-03-12 15:52:26 INFO  TC002_LoginTest:25 - clicked on myaccount link on the home page..
-2025-03-12 15:52:26 INFO  TC002_LoginTest:27 - clicked on login link under myaccount..
-2025-03-12 15:52:26 INFO  TC002_LoginTest:31 - Entering valid email and password..
-2025-03-12 15:52:27 INFO  TC002_LoginTest:35 - clicked on login button..
-2025-03-12 15:52:28 INFO  TC002_LoginTest:52 - **** Finished TC_002_LoginTest  ****
+2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\VICKY\AppData\Local\Temp\testng-eclipse-1390577273\testng-customsuite.xml
+
+2025-04-24 11:22:20 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@7caa550: 180 ms
+2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@1eba372c: 38 ms
+2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@2c95ac9e: 21 ms
+2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4de025bf: 19 ms
+2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@9f46d94: 18 ms
+2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@18cc679e: 0 ms
+2025-04-24 11:49:01 INFO  TC001_AccountRegistrationTest:26 - ....starting TC001_AccountRegistrationTest.....
+2025-04-24 11:49:02 INFO  TC001_AccountRegistrationTest:33 - clicked on My Account link
+2025-04-24 11:49:03 INFO  TC001_AccountRegistrationTest:35 - clicked on Register link
+2025-04-24 11:49:03 INFO  TC001_AccountRegistrationTest:40 - providing customer details...
+2025-04-24 11:49:05 INFO  TC001_AccountRegistrationTest:54 - validating expected message...
+2025-04-24 11:49:05 INFO  TC001_AccountRegistrationTest:74 - ....finished TC001_AccountRegistrationTest.....
+2025-04-24 11:49:08 INFO  TC002_LoginTest:18 - **** Starting TC_002_LoginTest  ****
+2025-04-24 11:49:09 INFO  TC002_LoginTest:25 - clicked on myaccount link on the home page..
+2025-04-24 11:49:09 INFO  TC002_LoginTest:27 - clicked on login link under myaccount..
+2025-04-24 11:49:09 INFO  TC002_LoginTest:31 - Entering valid email and password..
+2025-04-24 11:49:11 INFO  TC002_LoginTest:35 - clicked on login button..
+2025-04-24 11:49:11 INFO  TC002_LoginTest:52 - **** Finished TC_002_LoginTest  ****

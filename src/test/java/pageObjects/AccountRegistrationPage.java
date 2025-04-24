@@ -50,6 +50,7 @@ public class AccountRegistrationPage extends BasePage{
 	{
 		txtTelephone.sendKeys(telephone);
 	}
+	
 	public void setPassword(String password)
 	{
 		txtPassword.sendKeys(password);
