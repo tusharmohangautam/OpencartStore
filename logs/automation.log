@@ -1,39 +1,26 @@
-2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-04-24 11:22:19 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\VICKY\AppData\Local\Temp\testng-eclipse-1390577273\testng-customsuite.xml
+2025-06-02 06:57:41 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-02 06:57:41 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-02 06:57:41 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-06-02 06:57:41 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-06-02 06:57:41 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\VICKY\AppData\Local\Temp\testng-eclipse--990526140\testng-customsuite.xml
 
-2025-04-24 11:22:20 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
-2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@7caa550: 180 ms
-2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@1eba372c: 38 ms
-2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@2c95ac9e: 21 ms
-2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4de025bf: 19 ms
-2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@9f46d94: 18 ms
-2025-04-24 11:22:20 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@18cc679e: 0 ms
-2025-04-24 11:49:01 INFO  TC001_AccountRegistrationTest:26 - ....starting TC001_AccountRegistrationTest.....
-2025-04-24 11:49:02 INFO  TC001_AccountRegistrationTest:33 - clicked on My Account link
-2025-04-24 11:49:03 INFO  TC001_AccountRegistrationTest:35 - clicked on Register link
-2025-04-24 11:49:03 INFO  TC001_AccountRegistrationTest:40 - providing customer details...
-2025-04-24 11:49:05 INFO  TC001_AccountRegistrationTest:54 - validating expected message...
-2025-04-24 11:49:05 INFO  TC001_AccountRegistrationTest:74 - ....finished TC001_AccountRegistrationTest.....
-2025-04-24 11:49:08 INFO  TC002_LoginTest:18 - **** Starting TC_002_LoginTest  ****
-2025-04-24 11:49:09 INFO  TC002_LoginTest:25 - clicked on myaccount link on the home page..
-2025-04-24 11:49:09 INFO  TC002_LoginTest:27 - clicked on login link under myaccount..
-2025-04-24 11:49:09 INFO  TC002_LoginTest:31 - Entering valid email and password..
-2025-04-24 11:49:11 INFO  TC002_LoginTest:35 - clicked on login button..
-2025-04-24 11:49:11 INFO  TC002_LoginTest:52 - **** Finished TC_002_LoginTest  ****
+2025-06-02 06:57:41 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2025-06-02 06:57:41 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@7caa550: 171 ms
+2025-06-02 06:57:41 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@1eba372c: 30 ms
+2025-06-02 06:57:41 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@2c95ac9e: 40 ms
+2025-06-02 06:57:41 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4de025bf: 28 ms
+2025-06-02 06:57:41 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@9f46d94: 19 ms
+2025-06-02 06:57:41 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@18cc679e: 0 ms
+2025-06-02 09:03:28 INFO  TC001_AccountRegistrationTest:26 - ....starting TC001_AccountRegistrationTest.....
+2025-06-02 09:03:28 INFO  TC001_AccountRegistrationTest:33 - clicked on My Account link
+2025-06-02 09:03:29 INFO  TC001_AccountRegistrationTest:35 - clicked on Register link
+2025-06-02 09:03:29 INFO  TC001_AccountRegistrationTest:40 - providing customer details...
+2025-06-02 09:03:30 INFO  TC001_AccountRegistrationTest:54 - validating expected message...
+2025-06-02 09:03:30 INFO  TC001_AccountRegistrationTest:74 - ....finished TC001_AccountRegistrationTest.....
+2025-06-02 09:03:33 INFO  TC002_LoginTest:18 - **** Starting TC_002_LoginTest  ****
+2025-06-02 09:03:33 INFO  TC002_LoginTest:25 - clicked on myaccount link on the home page..
+2025-06-02 09:03:34 INFO  TC002_LoginTest:27 - clicked on login link under myaccount..
+2025-06-02 09:03:34 INFO  TC002_LoginTest:31 - Entering valid email and password..
+2025-06-02 09:03:34 INFO  TC002_LoginTest:35 - clicked on login button..
+2025-06-02 09:03:35 INFO  TC002_LoginTest:52 - **** Finished TC_002_LoginTest  ****
