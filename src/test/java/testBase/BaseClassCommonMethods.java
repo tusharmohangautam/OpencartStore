@@ -29,7 +29,7 @@ import org.testng.annotations.Parameters;
 public class BaseClassCommonMethods {
 
 public static WebDriver driver; 
-//we made static(will be common now) as we are using in onTestFailure() in ExtentReportManager class
+//we made static(will be commonnn now) as we are using in onTestFailure() in ExtentReportManager class
 public Logger logger;
 public Properties p;
 
