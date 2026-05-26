@@ -111,9 +111,11 @@ public Properties p;
 		
 		case "chrome": 
 			ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless=new");
-            options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
+			if (System.getenv("GITHUB_ACTIONS") != null) {
+		        options.addArguments("--headless=new");
+		        options.addArguments("--no-sandbox");
+		        options.addArguments("--disable-dev-shm-usage");
+		    }
 			
 			
 			driver=new ChromeDriver(options);break;
