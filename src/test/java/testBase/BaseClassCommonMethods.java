@@ -3,6 +3,7 @@ package testBase;
 import java.io.File;
 
 
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
@@ -26,6 +27,9 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+import org.openqa.selenium.chrome.ChromeOptions; 
+
+
 public class BaseClassCommonMethods {
 
 public static WebDriver driver; 
@@ -102,7 +106,18 @@ public Properties p;
 		
 		switch(br.toLowerCase())  //...when we are not using Grid setup execution....//// Use grouping.xml file
 		{
-		case "chrome": driver=new ChromeDriver();break;
+		
+		
+		
+		case "chrome": 
+			ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+			
+			
+			driver=new ChromeDriver(options);break;
+			
 		case "edge": driver=new EdgeDriver();break;
 		case "firefox": driver=new FirefoxDriver();break;
 		default: System.out.println("Invalid browser name...");
