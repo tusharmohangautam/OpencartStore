@@ -32,13 +32,13 @@ public static WebDriver driver;
 //we made static(will be commonnn now) as we are using in onTestFailure() in ExtentReportManager class
 public Logger logger;
 public Properties p;
-
+ 
 
 	@BeforeClass(groups= {"Sanity","Regression","Master"})
 	@Parameters({"os","browser"})
 	public void setup(String os, String br) throws IOException
 	{
-		//Loading config.properties file       ./  represents current projeect location
+		//Loading config.properties file       ./  represents current project location
 		
 		FileReader file=new FileReader(".//src//test//resources//config.properties");
 		 p=new Properties();
@@ -47,7 +47,7 @@ public Properties p;
 		
 		
 		
- logger=LogManager.getLogger(this.getClass());  //log4j2-It will dynamicaly work for all testcase class
+ logger=LogManager.getLogger(this.getClass());  //log4j2-It will dynamically work for all testcase class
 		
 		//....When executing using Grid Setup-use this block of code....starts here// Use grouping.xml file
   /*    		

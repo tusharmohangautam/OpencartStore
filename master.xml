@@ -4,6 +4,11 @@
 
 <suite name="Suite">
 	
+	<listeners> 
+		<listener class-name="utilities.ExtentReportManager"/> 
+		
+	</listeners>
+	
   <test thread-count="5" name="Test">
 	  <parameter name="os" value="Windows"/>
 	  <parameter name="browser" value="chrome"/>
@@ -15,5 +20,5 @@
       
     </classes>
     
-  </test>  <!-- Test -->
+  </test>  <!-- Test --> 
 </suite> <!-- Suite -->
