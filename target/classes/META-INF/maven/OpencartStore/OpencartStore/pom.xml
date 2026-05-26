@@ -10,7 +10,7 @@
       -->
   
   <build>
-    <pluginManagement>
+    <!-- <pluginManagement> -->
 		   
        <plugins>
 		   
@@ -26,14 +26,14 @@
             <version>3.2.2</version>
           <configuration>
             <suiteXmlFiles>
-            <suiteXmlFile>master.xml</suiteXmlFile>     //mention xml file name to be run
+            <suiteXmlFile>master.xml</suiteXmlFile>     <!-- mention xml file name to be run -->
             </suiteXmlFiles>
-          </configuration>
+          </configuration> 
         </plugin>
         
      </plugins>
      
-   </pluginManagement>
+ <!--  </pluginManagement>  -->           <!-- removing pluginManagement to run from Github actions-->
 </build> 
   
   

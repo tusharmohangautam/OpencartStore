@@ -26,4 +26,4 @@ jobs:
         run: mvn clean install
 
       - name: Execute Tests
-        run: mvn test -DsuiteXmlFile=master.xml
+        run: mvn clean test
