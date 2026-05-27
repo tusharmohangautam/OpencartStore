@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-
   workflow_dispatch:
 
 jobs:
@@ -12,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout Project
         uses: actions/checkout@v4
 
@@ -22,7 +20,10 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Build Project
-        run: mvn clean install
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+
+      - name: Run Tests
+        run: mvn test
 
       

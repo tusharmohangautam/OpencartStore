@@ -110,11 +110,14 @@ public Properties p;
 		
 		
 		case "chrome": 
-			ChromeOptions options = new ChromeOptions();
+			//boolean isHeadless = Boolean.parseBoolean(System.getProperty("headless", "false"));
+			ChromeOptions options = new ChromeOptions();	
 			if (System.getenv("GITHUB_ACTIONS") != null) {
 		        options.addArguments("--headless=new");
 		        options.addArguments("--no-sandbox");
 		        options.addArguments("--disable-dev-shm-usage");
+		        options.addArguments("--disable-gpu");
+		        options.addArguments("--window-size=1920,1080");
 		    }
 			
 			
