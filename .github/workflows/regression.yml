@@ -24,6 +24,7 @@ jobs:
         uses: browser-actions/setup-chrome@latest
 
       - name: Run Tests
-        run: mvn test
+        #run: mvn test
+        run: mvn test -DGITHUB_ACTIONS=true
 
       

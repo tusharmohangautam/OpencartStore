@@ -112,7 +112,8 @@ public Properties p;
 		case "chrome": 
 			//boolean isHeadless = Boolean.parseBoolean(System.getProperty("headless", "false"));
 			ChromeOptions options = new ChromeOptions();	
-			if (System.getenv("GITHUB_ACTIONS") != null) {
+			//if (System.getenv("GITHUB_ACTIONS") != null) {
+			if (System.getProperty("GITHUB_ACTIONS") != null) {
 		        options.addArguments("--headless=new");
 		        options.addArguments("--no-sandbox");
 		        options.addArguments("--disable-dev-shm-usage");
@@ -176,7 +177,8 @@ public Properties p;
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		
-		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		//String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		String targetFilePath = System.getProperty("user.dir") + File.separator + "screenshots" + File.separator + tname + "_" + timeStamp + ".png";
 		File targetFile=new File(targetFilePath);
 		
 		sourceFile.renameTo(targetFile);
