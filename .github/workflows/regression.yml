@@ -23,8 +23,11 @@ jobs:
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@latest
 
+      - name: Start Xvfb Virtual Display
+        run: |
+          sudo apt-get install -y xvfb
+          Xvfb :99 -screen 0 1920x1080x24 &
+          echo "DISPLAY=:99" >> $GITHUB_ENV
+
       - name: Run Tests
         run: mvn test
-        #run: mvn test -DGITHUB_ACTIONS=true
-
-      
