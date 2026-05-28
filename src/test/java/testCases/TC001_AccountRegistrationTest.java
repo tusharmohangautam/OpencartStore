@@ -21,7 +21,7 @@ import testBase.BaseClassCommonMethods;
 public class TC001_AccountRegistrationTest extends BaseClassCommonMethods{
 	
 	
-	@Test(groups={"Regression","Master"})
+	@Test(invocationCount = 3,groups={"Regression","Master"})
 	public void verify_accountregistration()
 	{
 		logger.info("....starting TC001_AccountRegistrationTest.....");
