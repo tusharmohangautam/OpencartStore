@@ -12,10 +12,10 @@ import utilities.DataProviders;
 
 
 
-/*Data is valid  - login success - test pass  - logout
+/* Data is valid  - login success - test pass  - logout
                   - login failed - test fail
 
-Data is invalid - login success - test fail  - logout
+ Data is invalid - login success - test fail  - logout
                 - login failed - test pass
 */
 
